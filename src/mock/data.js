@@ -2,56 +2,66 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Luc Mosser | Developer',
+  lang: 'en',
+  description: 'Welcome to my website',
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Luc Mosser',
+  subtitle: 'I\'m a creative full-stack web developer',
+  cta: 'Hire me.',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I\'m Luc, a Web Developer and UX/UI designer from France.',
+  paragraphTwo: 'National and international customers have relied on me for design,\
+                implementation, and management of their digital products.',
+  paragraphThree: 'I work to create innovative solutions that inspire, and foster memorable relationships between brands and their clients. With a focus on branding and UI / Web, I strive to create usable and polished products through passionate and deliberate design.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'bandwizard.png',
+    title: 'BandWizard',
+    info: ' ',
+    info2: 'BandWizard is a web app that connects musicians who want to play music together.',
+    url: 'http://www.bandwizard.co/',
+    repo: 'https://github.com/nicofraisse/bandwizard', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'rentalife.png',
+    title: 'Rent My Life',
+    info: ' ',
+    info2: 'Rent My Life was designed in one week during Le Wagon. It\'s a fun clone of Airbnb.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/lmssr/rentmylife', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'landingpage.png',
+    title: '3D Landing Page',
+    info: ' ',
+    info2: 'This project was a simple 3D landing page to implement generative design with threejs.',
+    url: 'https://lmssr.github.io/threejs_portfolio/',
+    repo: 'https://github.com/lmssr/threejs_portfolio', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'loowie.png',
+    title: 'Loowie',
+    info: ' ',
+    info2: 'Loowie is an eco-responsible american shoe brand.',
+    url: 'https://mocheteboul.wixsite.com/loowie',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -68,27 +78,32 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/Luc_Mosser',
     },
     {
       id: uuidv1(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/lmssr',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/luc-mosser/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/lmssr',
+    },
+    {
+      id: uuidv1(),
+      name: 'stack-overflow',
+      url: 'https://stackoverflow.com/users/13640675/luc-mosser',
+    },
+    {
+      id: uuidv1(),
+      name: 'medium',
+      url: 'https://medium.com/@luc.mosser86',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
