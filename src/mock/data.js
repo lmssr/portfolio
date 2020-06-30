@@ -41,7 +41,7 @@ export const projectsData = [
     img: 'rentalife.png',
     title: 'Rent My Life',
     info: ' ',
-    info2: `"Rent My Life was designed in one week during Le Wagon. It's a fun clone of Airbnb."`,
+    info2: `Rent My Life was designed in one week during Le Wagon. It's a fun clone of Airbnb.`,
     url: '',
     repo: 'https://github.com/lmssr/rentmylife', // if no repo, the button will not show up
   },
