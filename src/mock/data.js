@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Luc Mosser',
-  subtitle: `"I'm a creative full-stack web developer"`,
+  subtitle: `I'm a creative full-stack web developer`,
   cta: 'Hire me.',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `"I'm Luc, a Web Developer and UX/UI designer from France."`,
-  paragraphTwo: `"National and international customers have relied on me for design,\
-                implementation, and management of their digital products."`,
-  paragraphThree: `"I work to create innovative solutions that inspire, and foster memorable relationships between brands and their clients. With a focus on branding and UI / Web, I strive to create usable and polished products through passionate and deliberate design."`,
+  paragraphOne: `I'm Luc, a Web Developer and UX/UI designer from France.`,
+  paragraphTwo: `National and international customers have relied on me for design,\
+                implementation, and management of their digital products.`,
+  paragraphThree: `I work to create innovative solutions that inspire, and foster memorable relationships between brands and their clients. With a focus on branding and UI / Web, I strive to create usable and polished products through passionate and deliberate design.`,
   resume: '', // if no resume, the button will not show up
 };
 
