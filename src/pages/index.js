@@ -9,7 +9,7 @@ export default () => {
   const { title, lang, description } = headData;
 
   return (
-    <>
+    <div>
       <Helmet>
         <meta charSet="utf-8" />
         <title>{title || 'Luc Mosser | Developer Portfolio'}</title>
@@ -17,6 +17,6 @@ export default () => {
         <meta name="description" content={description || 'Luc Mosser | Developer Portfolio'} />
       </Helmet>
       <App />
-    </>
+    </div>
   );
 };
